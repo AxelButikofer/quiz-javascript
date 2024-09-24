@@ -37,7 +37,9 @@ const cardContent = document.querySelector("card-content");
 cardContent.classList.add("highlight");
 // -----------------------
 // 9. Récupérez la valeur de l'attribut "placeholder" (.getAttribute("...")) de l'élément HTML <input> (ligne 17 du code HTML).
-
+const inputElement = document.querySelector("input");
+const placeholderValue = inputElement.getAttribute("placeholder");
+console.log(placeholderValue);
 // -----------------------
 // 10. Expliquez ce qu'est un écouteur d'événement.
 // REPONSE: C'est un élément javascript qui va "écouter" ce que l'utilisateur fait. On va pouvoir utiliser cette information pour créer une interaction par exemple, lorsque l'utilisateur click ou scoll.
