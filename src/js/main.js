@@ -4,33 +4,33 @@
 // -----------------------
 
 // 1. Expliquez ce qu'est-ce qu'une variable.
-// REPONSE:
+// REPONSE: On stock une information ou un élément sous un groupe/ensemble avec on nom donné pour l'utiliser plus tard.
 
 // -----------------------
 // 2. Déclarez une variable s'appelant "firstName" et dont la valeur est votre prénom.
 
 // -----------------------
 // 3. Déclarez une variable s'appelant "age" et dont la valeur est votre âge. Attention, sa valeur pourrait être modifiée par la suite.
-
+let age = 20;
 // -----------------------
 // 4. Dans le code HTML (lignes 17 - 23), citez les divers éléments composant l'élément HTML <input>:
-// - Balise HTML:
-// - Classe(s):
+// - Balise HTML: input
+// - Classe(s): card-input
 // - Attribut(s):
 
 // -----------------------
 // 5. Expliquez la différence entre une class et un ID.
-// REPONSE:
+// REPONSE: Un ID s'utilise une seul fois alors qu'une class peut être utilisé plusieurs fois.
 
 // -----------------------
 // 6. A quoi sert la méthode document.querySelector("..."); ?
-// REPONSE:
+// REPONSE: Aller chercher un élément dans le html.
 
 // -----------------------
 // 7. A l'aide de la méthode document.querySelector("..."), sélectionnez l'élément <p> (ligne 14 du code HTML):
 // 7.1 Créez une variable appelée "cardContent".
 // 7.2 Assignez lui l'élément <p> (ligne 14 du code HTML) que vous avez sélectionné en 7.1.
-
+const cardContent = document.querySelector("card-content");
 // -----------------------
 // 8. Utilisez la variable "cardContent" créée à l'exercice 7:
 // 8.1 Utilisez la propriété .classList pour ajouter (.add("...")) la class ".highlight" à l'élément HTML.
