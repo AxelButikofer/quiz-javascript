@@ -34,7 +34,7 @@ const cardContent = document.querySelector("card-content");
 // -----------------------
 // 8. Utilisez la variable "cardContent" créée à l'exercice 7:
 // 8.1 Utilisez la propriété .classList pour ajouter (.add("...")) la class ".highlight" à l'élément HTML.
-
+cardContent.classList.add("highlight");
 // -----------------------
 // 9. Récupérez la valeur de l'attribut "placeholder" (.getAttribute("...")) de l'élément HTML <input> (ligne 17 du code HTML).
 
